@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+}
+
+div#header {
+    border: 1px solid black;
+    width: 100%;
+    height: 100px;
+    background-color: blueviolet;
+}
+
+main {
+border: 1px solid red;
+}
+
+main div {
+    display: inline-block;
+    background-color: #333;
+    width: 200px;
+    height: 400px;
+}
+main > div.a {
+    margin-right: 20px;
+}
+
+main > div.b {
+    width: 81%;
+}
+
+footer {
+    width: 100%;
+    height: 98px;
+    background-color: aqua;
+}

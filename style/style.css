@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div.wrap {
+    margin-inline: auto;
+    text-align: center;
+    border: 2px solid green;
+
+}
+
+div.a {
+    margin-inline: 40px;
+    margin-block: 20px;
+    display: inline-block;
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    
+
+    
+}
+
+#red {
+    background-color: red;
+    border: 5px solid purple;
+    
+}
+
+#blue {
+    background-color: blue;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+div.b {
+    margin-block: 20px;
+    margin-inline: auto;
+    display: block;
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;  
+}
+#black {
+    background-color: #333;
+}
